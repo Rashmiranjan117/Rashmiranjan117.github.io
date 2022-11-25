@@ -1,0 +1,11 @@
+footer{
+    height: 200px;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    background: var(--color-primary);
+}
+
+footer >a {
+    font-size: 1rem;
+}
