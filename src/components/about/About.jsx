@@ -30,12 +30,14 @@ const About = () => {
             </article>
           </div>
           <p>
-            I'm a Fullstack Web Devloper with over +1200 hours of coding. I
-            also have Hands on Experience on working in different Projects using
-            MERN stack (Group & Indivisual) and am able to provide Industry
-            ready Web Applications.
+            I am a Fullstack web developer with a focus on the MERN stack. I have more than
+            1200 hours of coding experience, working on various projects, both
+            as part of a team and as an individual. I am passionate about web
+            development and am always looking to improve my skills.
           </p>
-          <a href="#contact" className="btn btn-primary">Contact Me</a>
+          <a href="#contact" className="btn btn-primary">
+            Contact Me
+          </a>
         </div>
       </div>
     </section>
