@@ -7,7 +7,10 @@ import { BsGithub } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
-      
+      <div className="foot-element">
+        <a href="#" className="btn btn-primary" >Scroll To Top</a>
+        <h5>Made by Rashmiranjan</h5>
+      </div>
     </footer>
   );
 };

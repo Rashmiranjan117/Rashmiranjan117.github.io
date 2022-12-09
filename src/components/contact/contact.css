@@ -7,7 +7,7 @@
 
 .contact_options{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.2rem;
     justify-content: center;
     padding: 2rem;
@@ -45,12 +45,13 @@
 
 @media screen and (max-width:1024px){
     .contact__container.container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
     .contact_options{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* flex-direction: column; */
     }
 }
 

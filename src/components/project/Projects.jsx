@@ -17,6 +17,14 @@ const Projects = () => {
           <div className="project_item-image">
             <img src={MailChimp} alt="mailchimp" />
             <h3>MailChimp Clone</h3>
+            <div>
+            <p>Mailchimp is an marketing automation platform and email marketing service(Reaching to their targeted audience via emails.).</p>
+            <div style={{display:"flex", gap:"8px",margin:"10px"}}>
+            <img style={{width:"35px"}} src="https://img.icons8.com/color/48/null/html-5--v1.png"/>
+            <img style={{width:"35px"}} src="https://img.icons8.com/fluency/48/null/css3.png"/>
+            <img style={{width:"35px"}} src="https://img.icons8.com/fluency/48/null/javascript.png"/>
+            </div>
+            </div>
             <div className="project__item-cta">
               <a
                 href="https://github.com/Rashmiranjan117/Rashmi
@@ -41,6 +49,16 @@ unit2constructweekproject.netlify.app/"
           <div className="project_item-image">
             <img src={bluemercury} alt="" />
             <h3>bluemercury Clone</h3>
+            <div>
+            <p>Bluemercury.com is a leading luxury beauty
+retailer offering the best of cosmetics, skincare,
+makeup, perfume, hair, bath, and body products.</p>
+            <div style={{display:"flex", gap:"8px",margin:"10px"}}>
+            <img style={{width:"35px"}} src="https://img.icons8.com/color/48/null/html-5--v1.png"/>
+            <img style={{width:"35px"}} src="https://img.icons8.com/fluency/48/null/css3.png"/>
+            <img style={{width:"35px"}} src="https://img.icons8.com/fluency/48/null/javascript.png"/>
+            </div>
+            </div>
             <div className="project__item-cta">
               <a
                 href="https://github.com/ignitinsharma/bluemercury_clone"

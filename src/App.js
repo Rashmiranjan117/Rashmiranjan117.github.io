@@ -7,15 +7,18 @@ import Projects from "./components/project/Projects";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Skills from "./components/skills/Skills";
+import GithubStats from "./components/github/GithubStats";
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <Navbar />
+      <Header />
+      
       <About />
       <Skills />
       <Projects />
+      <GithubStats />
       <Contact />
       <Footer />
     </div>

@@ -3,7 +3,7 @@ import "./contact.css";
 import { SiGmail } from "react-icons/si";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiOutlinePhone } from "react-icons/ai";
-
+import { FaGithub } from "react-icons/fa";
 const Contact = () => {
   return (
     <section id="contact">
@@ -35,6 +35,14 @@ const Contact = () => {
             <h5>+9179798184908</h5>
             <a href="tel://+917978184908" target="_blank">
               Phone call
+            </a>
+          </article>
+          <article className="contact_option">
+            <FaGithub className="contact_option-icon" />
+            <h4>Github</h4>
+            <h5>Rashmiranjan117</h5>
+            <a href="https://github.com/Rashmiranjan117" target="_blank">
+              Github Link
             </a>
           </article>
         </div>

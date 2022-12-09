@@ -1,11 +1,28 @@
 footer{
-    height: 200px;
+    height: 150px;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
-    background: var(--color-primary);
+    align-items: center;
+    /* background: var(--color-primary); */
 }
 
 footer >a {
     font-size: 1rem;
+}
+
+.foot-element{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100vw;
+    /* border:1px solid red; */
+    padding: 1rem;
+}
+
+h5{
+    color: var(--color-light);
 }

@@ -27,7 +27,7 @@ font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height:1.7;
-  background-image: url(../src/assests/bg-texture.png);
+  /* background-image: url(../src/assests/bg-texture.png); */
 }
 *{
   margin:0;
@@ -69,7 +69,7 @@ h1{
 
 section{
   margin-top: 8rem;
-  /* height: 100vh; */
+  /* height: 80vh; */
 }
 
 section>h2, section>h5{
