@@ -40,8 +40,7 @@ const Projects = () => {
             </div>
             <div className="project__item-cta">
               <a
-                href="https://github.com/Rashmiranjan117/Rashmi
-ranjan_Mahanta-cold-lamp-3047-"
+                href="https://github.com/Rashmiranjan117/Rashmiranjan_Mahanta-cold-lamp-3047-Construct-week-project"
                 className="btn"
                 target="_blank"
               >
