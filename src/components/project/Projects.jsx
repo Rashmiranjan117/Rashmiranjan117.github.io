@@ -55,7 +55,7 @@ const Projects = () => {
             </div>
             <div className="project__item-cta">
               <a
-                href="https://github.com/Dhanush-Saji/tasty-hour-5423"
+                href="https://github.com/Rashmiranjan117/Craftco"
                 className="btn"
                 target="_blank"
               >
@@ -109,7 +109,7 @@ const Projects = () => {
             </div>
             <div className="project__item-cta">
               <a
-                href="https://github.com/ajayahara/naive-rings-3032"
+                href="https://github.com/Rashmiranjan117/smart-store"
                 className="btn"
                 target="_blank"
               >
@@ -155,7 +155,7 @@ const Projects = () => {
             </div>
             <div className="project__item-cta">
               <a
-                href="https://github.com/ignitinsharma/bluemercury_clone"
+                href="https://github.com/Rashmiranjan117/bluemercury"
                 className="btn"
                 target="_blank"
               >
