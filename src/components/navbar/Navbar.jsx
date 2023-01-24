@@ -27,31 +27,43 @@ const data = [
     id: 1,
     link: "#",
     title: "Home",
+    target: "",
   },
   {
     id: 2,
     link: "#about",
     title: "About Me",
+    target: "",
   },
   {
     id: 3,
     link: "#skills",
     title: "Skills",
+    target: "",
   },
   {
     id: 4,
     link: "#projects",
     title: "Projects",
+    target: "",
   },
   {
     id: 5,
     link: "#githubStats",
     title: "Github Stats",
+    target: "",
   },
   {
     id: 6,
     link: "#contact",
     title: "Contact Me",
+    target: "",
+  },
+  {
+    id: 7,
+    link: "https://drive.google.com/file/d/1T6rrjn1ZjfbWQzQYBfY5ryO_9nuQlEP2/view?usp=sharing",
+    title: "Resume",
+    target: "_blank",
   },
 ];
 
@@ -59,6 +71,11 @@ const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");
   const [menuOpen, setMenuOpen] = useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const handleClose =(fn)=>{
+    onOpen()
+    
+  }
   return (
     <nav>
       <div className="container nav__container">
@@ -68,7 +85,9 @@ const Navbar = () => {
         <ul className="nav__menu">
           {data.map((item) => (
             <li key={item.id}>
-              <a href={item.link}>{item.title}</a>
+              <a href={item.link} target={item.target}>
+                {item.title}
+              </a>
             </li>
           ))}
         </ul>
@@ -91,7 +110,7 @@ const Navbar = () => {
               <ModalBody className="items">
                 {data.map((item) => (
                   <h3 key={item.id}>
-                    <a href={item.link}>{item.title}</a>
+                    <a href={item.link} >{<span >{item.title}</span>}</a>
                   </h3>
                 ))}
               </ModalBody>
