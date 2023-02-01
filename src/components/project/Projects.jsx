@@ -116,7 +116,7 @@ const Projects = () => {
                 <AiOutlineGithub /> Github
               </a>
               <a
-                href="https://melodic-wisp-f3c5fb.netlify.app/"
+                href="https://darling-sunshine-8dc7e8.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
