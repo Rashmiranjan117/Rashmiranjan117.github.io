@@ -62,7 +62,7 @@ const Projects = () => {
                 <AiOutlineGithub /> Github
               </a>
               <a
-                href="https://elaborate-bublanina-371cc6.netlify.app/"
+                href="https://craftco.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
