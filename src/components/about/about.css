@@ -5,7 +5,7 @@
 }
 
 .about__me{
-    width: 100%;
+    width: 80%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -94,7 +94,7 @@
 
 @media screen and (max-width:600px){
     .about__me{
-        width: 65%;
+        width: 60%;
         margin: 0 auto 3rem;
     }
 

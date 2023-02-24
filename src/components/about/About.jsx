@@ -13,7 +13,7 @@ const About = () => {
         <div className="about__me">
           <div className="about__me-image">
             <img src={Professional_Picture} alt="professional picture" />
-          </div>
+        </div>
         </div>
         <div className="about__content">
           <div className="about__cards">
@@ -30,10 +30,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            I am a Fullstack web developer with a focus on the MERN stack. I have more than
-            1200 hours of coding experience, working on various projects, both
-            as part of a team and as an individual. I am passionate about web
-            development and am always looking to improve my skills.
+            I am a Fullstack web developer with a focus on the MERN stack. I
+            have more than 1200 hours of coding experience, working on various
+            projects, both as part of a team and as an individual. I am
+            passionate about web development and am always looking to improve my
+            skills.
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact Me
