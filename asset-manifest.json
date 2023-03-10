@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.998f752a.css",
-    "main.js": "/static/js/main.a95f1944.js",
+    "main.js": "/static/js/main.775d5d75.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Removed_background.png": "/static/media/Removed_background.2163724e1e70ac9386e0.png",
-    "static/media/Rashmiranjan_Mahanta_Resume.pdf": "/static/media/Rashmiranjan_Mahanta_Resume.9a4e4c38fe39a1b938f9.pdf",
+    "static/media/Rashmiranjan_Mahanta_Resume.pdf": "/static/media/Rashmiranjan_Mahanta_Resume.ef28e71e5b343b2b4685.pdf",
     "static/media/smartStore.jpg": "/static/media/smartStore.3febedf0ae6eb5f80b7e.jpg",
     "static/media/bluemercury.jpg": "/static/media/bluemercury.e0e6d1d5dfcb0fcf997e.jpg",
     "static/media/craftco.jpg": "/static/media/craftco.f94b715f31b4ca35a600.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.998f752a.css.map": "/static/css/main.998f752a.css.map",
-    "main.a95f1944.js.map": "/static/js/main.a95f1944.js.map",
+    "main.775d5d75.js.map": "/static/js/main.775d5d75.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.998f752a.css",
-    "static/js/main.a95f1944.js"
+    "static/js/main.775d5d75.js"
   ]
 }
