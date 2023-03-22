@@ -5,9 +5,9 @@ import { AiOutlineDownload } from "react-icons/ai";
 const Subcomponent = () => {
   return (
     <div className="cta">
-      <a href={Rashmiranjan_Mahanta_Resume} download >
-        <p 
-        className="btn"
+      <a href={Rashmiranjan_Mahanta_Resume} download>
+        <p
+          className="btn"
           onClick={() => {
             window.open(
               "https://drive.google.com/file/d/1T6rrjn1ZjfbWQzQYBfY5ryO_9nuQlEP2/view?usp=sharing",

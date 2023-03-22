@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Professional_Picture from "../../assests/Professional Picture.png";
+import Professional_Picture from "../../assests/professional_picture.jpg";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { BsAward } from "react-icons/bs";
 
