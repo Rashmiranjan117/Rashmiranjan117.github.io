@@ -6,13 +6,13 @@ import { BsAward } from "react-icons/bs";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="about section">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Professional_Picture} alt="professional picture" />
+            <img src={Professional_Picture} alt="professional picture" class="home-img" />
         </div>
         </div>
         <div className="about__content">
@@ -29,7 +29,7 @@ const About = () => {
               <small>On Working on Various Projects</small>
             </article>
           </div>
-          <p>
+          <p id="user-detail-intro">
             I am a Fullstack web developer with a focus on the MERN stack. I
             have more than 1200 hours of coding experience, working on various
             projects, both as part of a team and as an individual. I am

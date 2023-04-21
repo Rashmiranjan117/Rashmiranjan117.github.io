@@ -28,42 +28,56 @@ const data = [
     link: "#",
     title: "Home",
     target: "",
+    class: "nav-link home",
+    data_id: "",
   },
   {
     id: 2,
     link: "#about",
     title: "About Me",
     target: "",
+    class: "nav-link about",
+    data_id: "",
   },
   {
     id: 3,
     link: "#skills",
     title: "Skills",
     target: "",
+    class: "nav-link skills",
+    data_id: "",
   },
   {
     id: 4,
     link: "#projects",
     title: "Projects",
     target: "",
+    class: "nav-link projects",
+    data_id: "",
   },
   {
     id: 5,
     link: "#githubStats",
     title: "Github Stats",
     target: "",
+    class: "",
+    data_id: "",
   },
   {
     id: 6,
     link: "#contact",
     title: "Contact Me",
     target: "",
+    class: "nav-link contact",
+    data_id: "",
   },
   {
     id: 7,
     link: "https://drive.google.com/file/d/1T6rrjn1ZjfbWQzQYBfY5ryO_9nuQlEP2/view?usp=sharing",
     title: "Resume",
     target: "_blank",
+    class: "nav-link resume",
+    data_id: "resume-button-1",
   },
 ];
 
@@ -72,12 +86,11 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-  const handleClose =(fn)=>{
-    onOpen()
-    
-  }
+  const handleClose = (fn) => {
+    onOpen();
+  };
   return (
-    <nav>
+    <nav id="nav-menu">
       <div className="container nav__container">
         <a href="index.html" className="nav__logo">
           <img src={RRMremovebgpreview} alt="websiteLogo" />
@@ -85,7 +98,12 @@ const Navbar = () => {
         <ul className="nav__menu">
           {data.map((item) => (
             <li key={item.id}>
-              <a href={item.link} target={item.target}>
+              <a
+                href={item.link}
+                id={item.data_id}
+                className={item?.class}
+                target={item.target}
+              >
                 {item.title}
               </a>
             </li>
@@ -110,7 +128,14 @@ const Navbar = () => {
               <ModalBody className="items">
                 {data.map((item) => (
                   <h3 key={item.id}>
-                    <a href={item.link} >{<span >{item.title}</span>}</a>
+                    <a
+                      href={item.link}
+                      id={item.data_id}
+                      className={item?.class}
+                      target={item.target}
+                    >
+                      {<span>{item.title}</span>}
+                    </a>
                   </h3>
                 ))}
               </ModalBody>

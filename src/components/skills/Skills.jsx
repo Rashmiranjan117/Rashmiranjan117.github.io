@@ -13,7 +13,7 @@ import { SiHeroku } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <section id="skills">
+    <section id="skills" className="skills-card">
       <h5>Accomplished</h5>
       <h2>Skills</h2>
       <div className="container experience__container">
@@ -24,50 +24,56 @@ const Skills = () => {
               {/* <AiOutlineHtml5 className="experience_details-icon" /> */}
               <img
                 style={{ width: "35px", height: "35px" }}
+                className="skills-card-img"
                 src="https://img.icons8.com/color/48/null/html-5--v1.png"
               />
-              <h4>Html 5</h4>
+              <h4 className="skills-card-name">Html 5</h4>
             </article>
 
             <article className="experience_details">
               {/* <TbBrandCss3 className="experience_details-icon" /> */}
               <img
                 style={{ width: "35px", height: "35px" }}
+                className="skills-card-img"
                 src="https://img.icons8.com/fluency/48/null/css3.png"
               />
-              <h4>Css</h4>
+              <h4 className="skills-card-name">Css</h4>
             </article>
             <article className="experience_details">
               {/* <TbBrandJavascript className="experience_details-icon" /> */}
               <img
                 style={{ width: "35px", height: "35px" }}
+                className="skills-card-img"
                 src="https://img.icons8.com/fluency/48/null/javascript.png"
               />
-              <h4>JavaScript</h4>
+              <h4 className="skills-card-name">JavaScript</h4>
             </article>
             <article className="experience_details">
               {/* <FaReact className="experience_details-icon" /> */}
               <img
                 style={{ width: "35px", height: "35px" }}
+                className="skills-card-img"
                 src="https://img.icons8.com/plasticine/100/null/react.png"
               />
-              <h4>React</h4>
+              <h4 className="skills-card-name">React</h4>
             </article>
             <article className="experience_details">
               {/* <SiChakraui className="experience_details-icon" /> */}
               <img
                 style={{ width: "35px", height: "35px" }}
+                className="skills-card-img"
                 src="https://img.icons8.com/color/48/null/chakra-ui.png"
               />
-              <h4>Chakra Ui</h4>
+              <h4 className="skills-card-name">Chakra Ui</h4>
             </article>
             <article className="experience_details">
               {/* <SiRedux className="experience_details-icon" /> */}
               <img
                 style={{ width: "35px", height: "35px" }}
+                className="skills-card-img"
                 src="https://img.icons8.com/color/48/null/redux.png"
               />
-              <h4>Redux</h4>
+              <h4 className="skills-card-name">Redux</h4>
             </article>
           </div>
         </div>
@@ -78,25 +84,28 @@ const Skills = () => {
             {/* <FaNodeJs className="experience_details-icon" /> */}
             <img
               style={{ width: "35px", height: "35px" }}
+              className="skills-card-img"
               src="https://img.icons8.com/color/48/null/nodejs.png"
             />
-            <h4>NodeJS</h4>
+            <h4 className="skills-card-name">NodeJS</h4>
           </article>
           <article className="experience_details">
             {/* <SiExpress className="experience_details-icon" /> */}
             <img
               style={{ width: "35px", height: "35px" }}
+              className="skills-card-img"
               src="https://img.icons8.com/office/40/null/express-js.png"
             />
-            <h4>Express JS</h4>
+            <h4 className="skills-card-name">Express JS</h4>
           </article>
           <article className="experience_details">
             {/* <SiMongodb className="experience_details-icon" /> */}
             <img
               style={{ width: "35px", height: "35px" }}
+              className="skills-card-img"
               src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"
             />
-            <h4>Mongodb</h4>
+            <h4 className="skills-card-name">Mongodb</h4>
           </article>
         </div>
       </div>

@@ -16,7 +16,9 @@ const Contact = () => {
             <SiGmail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>rashmiranjan007jb@gmail.com</h5>
-            <a href="mailto:rashmiranjan007jb@gmail.com">Send An Email</a>
+            <a href="mailto:rashmiranjan007jb@gmail.com" id="contact-email">
+              Send An Email
+            </a>
           </article>
           <article className="contact_option">
             <AiOutlineLinkedin className="contact_option-icon" />
@@ -25,6 +27,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com//in/rashmiranjan-mahanta-281634202/"
               target="_blank"
+              id="contact-linkedin"
             >
               Connect on LinkedIn
             </a>
@@ -33,7 +36,7 @@ const Contact = () => {
             <AiOutlinePhone className="contact_option-icon" />
             <h4>Phone Number</h4>
             <h5>+9179798184908</h5>
-            <a href="tel://+917978184908" target="_blank">
+            <a href="tel://+917978184908" target="_blank" id="contact-phone">
               Phone call
             </a>
           </article>
@@ -41,7 +44,11 @@ const Contact = () => {
             <FaGithub className="contact_option-icon" />
             <h4>Github</h4>
             <h5>Rashmiranjan117</h5>
-            <a href="https://github.com/Rashmiranjan117" target="_blank">
+            <a
+              href="https://github.com/Rashmiranjan117"
+              id="contact-github"
+              target="_blank"
+            >
               Github Link
             </a>
           </article>

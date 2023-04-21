@@ -26,6 +26,7 @@ const GithubStats = () => {
         <h2>Github Stats</h2>
         <GitHubCalendar
           username="Rashmiranjan117"
+          class="react-activity-calendar"
           style={{ margin: "auto", padding: "1rem", gap:'1.2rem'}}
           // transformData={selectLastHalfYear}
           blockSize={12}
@@ -33,7 +34,13 @@ const GithubStats = () => {
         ></GitHubCalendar>
       </div>
       <div className="github-stats-image">
-        <img src="https://github-readme-stats.vercel.app/api?username=Rashmiranjan117&show_icons=true" />
+        <img id="github-streak-stats" src="https://github-readme-stats.vercel.app/api?username=Rashmiranjan117&show_icons=true" />
+      </div>
+      <div className="github-stats-image">
+        <img id="github-streak-stats"  src="https://github-readme-streak-stats.herokuapp.com?user=Rashmiranjan117" />
+      </div>
+      <div className="github-stats-image">
+        <img id="github-top-langs"  src="https://github-readme-stats.vercel.app/api/top-langs?username=Rashmiranjan117" />
       </div>
     </section>
   );

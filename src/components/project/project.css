@@ -6,7 +6,7 @@
   object-fit: contain;
 }
 
-.project_item {
+.project-card {
   background: var(--coloor-bg-variant);
   padding: 1.4rem;
   border-radius: 2rem;
@@ -14,7 +14,7 @@
   transition: var(--transition);
 }
 
-.project_item:hover {
+.project-card:hover {
   border-color: var(--color-primary-variant);
   background: transparent;
 }
@@ -24,7 +24,7 @@
   overflow: hidden;
 }
 
-.project_item h3 {
+.project-card h3 {
   margin: 1.2rem 0 2rem;
 }
 
@@ -51,7 +51,7 @@
     width: 90%;
     box-sizing: border-box;
   }
-  .project_item{
+  .project-card{
     padding: 0.8rem;
   }
 }

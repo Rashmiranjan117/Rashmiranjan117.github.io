@@ -16,19 +16,22 @@ const Projects = () => {
       <div className="container projects_container">
         {/* Fourth project */}
 
-        <article className="project_item">
+        <article className="project-card">
           <div className="project_item-image">
             <img src={craftco} alt="" />
-            <h3>Craftco</h3>
+            <h3 className="project-title">Craftco</h3>
             <div>
-              <p>
+              <p className="project-description">
                 Craftco.com is offers you the convenience of shopping for
                 everything that you need for your home - be it fresh fruits &
                 vegetables, rice, dals, oil, packaged food, dairy item, frozen,
                 pet food, household cleaning items & personal care products from
                 a single virtual store.
               </p>
-              <div style={{ display: "flex", gap: "8px", margin: "10px" }}>
+              <div
+                style={{ display: "flex", gap: "8px", margin: "10px" }}
+                className="project-tech-stack"
+              >
                 <img
                   style={{ width: "35px" }}
                   src="https://img.icons8.com/color/48/null/react-native.png"
@@ -69,32 +72,36 @@ const Projects = () => {
                 className="btn"
                 target="_blank"
               >
-                <AiOutlineGithub /> Github
+                <AiOutlineGithub className="project-github-link" /> Github
               </a>
               <a
                 href="https://craftco.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
-                <FiExternalLink /> Deployed Url
+                <FiExternalLink className="project-deployed-link" /> Deployed
+                Url
               </a>
             </div>
           </div>
         </article>
 
-        <article className="project_item">
+        <article className="project-card">
           <div className="project_item-image">
             <img src={smartStore} alt="" />
-            <h3>Smart Store</h3>
+            <h3 className="project-title">Smart Store</h3>
             <div>
-              <p>
+              <p className="project-description">
                 Smartstore.com is a clone of JioMart, India's most convenient
                 online grocery channel.
                 <br /> No more hassles of sweating it out in crowded markets,
                 grocery shops & supermarkets - now shop from the comfort of your
                 -home office or on the move.
               </p>
-              <div style={{ display: "flex", gap: "8px", margin: "10px" }}>
+              <div
+                style={{ display: "flex", gap: "8px", margin: "10px" }}
+                className="project-tech-stack"
+              >
                 <img
                   style={{ width: "35px" }}
                   src="https://img.icons8.com/color/48/null/react-native.png"
@@ -123,14 +130,15 @@ const Projects = () => {
                 className="btn"
                 target="_blank"
               >
-                <AiOutlineGithub /> Github
+                <AiOutlineGithub className="project-github-link" /> Github
               </a>
               <a
                 href="https://darling-sunshine-8dc7e8.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
-                <FiExternalLink /> Deployed Url
+                <FiExternalLink className="project-deployed-link" /> Deployed
+                Url
               </a>
             </div>
           </div>
@@ -181,17 +189,20 @@ const Projects = () => {
           </div>
         </article> */}
         {/* first project here */}
-        <article className="project_item">
+        <article className="project-card">
           <div className="project_item-image">
             <img src={MailChimp} alt="mailchimp" />
-            <h3>MailChimp Clone</h3>
+            <h3 className="project-title">MailChimp Clone</h3>
             <div>
-              <p>
+              <p className="project-description">
                 Mailchimp is an marketing automation platform and email
                 marketing service(Reaching to their targeted audience via
                 emails.).
               </p>
-              <div style={{ display: "flex", gap: "8px", margin: "10px" }}>
+              <div
+                style={{ display: "flex", gap: "8px", margin: "10px" }}
+                className="project-tech-stack"
+              >
                 <img
                   style={{ width: "35px" }}
                   src="https://img.icons8.com/color/48/null/html-5--v1.png"
@@ -212,7 +223,7 @@ const Projects = () => {
                 className="btn"
                 target="_blank"
               >
-                <AiOutlineGithub /> Github
+                <AiOutlineGithub className="project-github-link" /> Github
               </a>
               <a
                 href="https://rashmiranjanmahanta-fw20-1193-
@@ -220,24 +231,28 @@ unit2constructweekproject.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
-                <FiExternalLink /> Deployed Url
+                <FiExternalLink className="project-deployed-link" /> Deployed
+                Url
               </a>
             </div>
           </div>
         </article>
 
         {/* third Project here */}
-        <article className="project_item">
+        <article className="project-card">
           <div className="project_item-image">
             <img src={weatherwizard} alt="mailchimp" />
-            <h3>Weather Wizard</h3>
+            <h3 className="project-title">Weather Wizard</h3>
             <div>
-              <p>
-                WeatherWise, your go-to weather companion! Powered by
-                TypeScript, React, Sass, WeatherWise provides accurate and
+              <p className="project-description">
+                Weather Wizard, your go-to weather companion! Powered by
+                TypeScript, React, Sass, Weather Wizard provides accurate and
                 up-to-date weather forecasts for your location and beyond.
               </p>
-              <div style={{ display: "flex", gap: "8px", margin: "10px" }}>
+              <div
+                style={{ display: "flex", gap: "8px", margin: "10px" }}
+                className="project-tech-stack"
+              >
                 <img
                   style={{ width: "35px" }}
                   src="https://img.icons8.com/color/48/null/react-native.png"
@@ -266,14 +281,15 @@ unit2constructweekproject.netlify.app/"
                 className="btn"
                 target="_blank"
               >
-                <AiOutlineGithub /> Github
+                <AiOutlineGithub className="project-github-link" /> Github
               </a>
               <a
                 href="https://wonderful-cassata-6f9bc6.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
-                <FiExternalLink /> Deployed Url
+                <FiExternalLink className="project-deployed-link" /> Deployed
+                Url
               </a>
             </div>
           </div>
