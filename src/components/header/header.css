@@ -1,7 +1,11 @@
+.home{
+    padding: 1rem;
+    overflow: auto;
+}
 header{
     height: 100vh;
     padding-top: 10rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 /* buttonStyles */
 .header__container{
@@ -74,7 +78,9 @@ header{
      header{
         height: 68vh;
      }
-
+.cta{
+    margin-top: 2rem;
+}
      /* .me{
         width: 14rem;
         height:25rem;
@@ -82,6 +88,7 @@ header{
         padding: 0 0.75rem 0.75rem 2.5rem;
         margin-top: 2.4rem;
      }
+     
 
      .me >img{
         height: 100%;
@@ -93,6 +100,9 @@ header{
 @media all and (max-width:600px) and (min-width:200px){
     header{
         height: 100vh;
+    }
+    .cta{
+        margin-top: 1.5rem;
     }
 
     .header__socials,.scroll__down{

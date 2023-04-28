@@ -13,11 +13,11 @@ import { SiHeroku } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <section id="skills" className="skills-card">
+    <section id="skills">
       <h5>Accomplished</h5>
       <h2>Skills</h2>
       <div className="container experience__container">
-        <div className="experience__frontend">
+        <div className="skills-card">
           <h3 className="ih">Frontend Devlopment</h3>
           <div className="experience__content">
             <article className="experience_details">
@@ -78,7 +78,7 @@ const Skills = () => {
           </div>
         </div>
         {/* end of Forntend section */}
-        <div className="experience__backend">
+        <div className="skills-card">
           <h3 className="ih">Backend Devlopment</h3>
           <article className="experience_details">
             {/* <FaNodeJs className="experience_details-icon" /> */}

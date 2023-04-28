@@ -20,6 +20,8 @@ import {
   Box,
   Heading,
   Link,
+  Hide,
+  Show,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 const data = [
@@ -95,6 +97,7 @@ const Navbar = () => {
         <a href="index.html" className="nav__logo">
           <img src={RRMremovebgpreview} alt="websiteLogo" />
         </a>
+        <Hide breakpoint="(max-width: 1024px)">
         <ul className="nav__menu">
           {data.map((item) => (
             <li key={item.id}>
@@ -109,6 +112,8 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        </Hide>
+
         <div className="menu-btn">
           {/* <div className="menu-btn__burger"></div> */}
           <Button className="btn">
