@@ -69,9 +69,9 @@ nav {
 }
 
 @media screen and (max-width: 1024px) {
-   /* .nav__menu {
+   .nav__menu {
     display: none;
-  }  */
+  } 
   
   .menu-btn {
     visibility: visible;
@@ -114,9 +114,9 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
-  /* .nav__menu {
+  .nav__menu {
     display: none;
-  } */
+  }
   .menu-btn {
     visibility: visible;
   }

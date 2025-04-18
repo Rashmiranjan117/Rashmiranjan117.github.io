@@ -5,7 +5,7 @@
 header{
     height: 100vh;
     padding-top: 10rem;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 /* buttonStyles */
 .header__container{
@@ -78,9 +78,9 @@ header{
      header{
         height: 68vh;
      }
-.cta{
+/* .cta{
     margin-top: 2rem;
-}
+} */
      /* .me{
         width: 14rem;
         height:25rem;
@@ -101,9 +101,9 @@ header{
     header{
         height: 100vh;
     }
-    .cta{
+    /* .cta{
         margin-top: 1.5rem;
-    }
+    } */
 
     .header__socials,.scroll__down{
         display: none;
